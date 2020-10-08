@@ -1,0 +1,41 @@
+
+
+/*
+ Déclarations dans l'ordre d'apparition des éléments
+ */
+
+header {
+
+}
+
+
+body{
+    
+    background-color:#fafafa;
+}
+
+.brandlogo{
+    flex: 0 0  33%;
+    width:33%;
+    margin-left: auto;
+}
+.brandlogo img{
+    margin: auto;
+}
+
+.brandinfo{
+    flex: 0 0  66%;
+    width: 66%;
+}
+
+main {
+    flex-wrap: wrap;
+}
+
+.grid_item {
+    flex: 0 0  33%; 
+    width: 33%;       
+}
+footer {
+    text-align: center;
+}
